@@ -152,6 +152,7 @@ layout {
     //
     // Alternatively, you can override it with a window rule called
     // `draw-border-with-background`.
+    prefer-no-csd
  
     // You can change how the focus ring looks.
     focus-ring {
@@ -215,7 +216,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+        on
  
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -308,7 +309,7 @@ animations {
 // https://yalter.github.io/niri/Configuration:-Window-Rules
  
 window-rule {
-    geometry-corner-radius 20
+    geometry-corner-radius 6
     clip-to-geometry true
 }
 
@@ -346,7 +347,7 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
-    geometry-corner-radius 12
+    geometry-corner-radius 6
     clip-to-geometry true
 }
  
