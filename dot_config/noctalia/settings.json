@@ -6,7 +6,7 @@
         ],
         "position": "center",
         "sortByMostUsed": true,
-        "terminalCommand": "ghostty -e",
+        "terminalCommand": "ghostty",
         "useApp2Unit": false
     },
     "audio": {
@@ -239,7 +239,7 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "defaultWallpaper": "/usr/share/zirconium/noctalia-shell/Assets/Wallpaper/noctalia.png",
+        "defaultWallpaper": "/etc/skel/Pictures/Wallpapers/mountains.png",
         "directory": "~/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
