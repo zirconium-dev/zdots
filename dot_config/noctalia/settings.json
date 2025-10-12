@@ -20,10 +20,10 @@
     },
     "bar": {
         "backgroundOpacity": 1,
-        "density": "default",
+        "density": "comfortable",
         "floating": false,
-        "marginHorizontal": 0.25,
-        "marginVertical": 0.25,
+        "marginHorizontal": 0.67,
+        "marginVertical": 0.67,
         "monitors": [
         ],
         "position": "top",
@@ -37,21 +37,22 @@
                     "id": "Clock",
                     "useCustomFont": false,
                     "usePrimaryColor": true
-                },
+                }
             ],
             "left": [
                 {
                     "hideUnoccupied": false,
                     "id": "Workspace",
                     "labelMode": "index"
-                }
+                },
                 {
                     "autoHide": false,
+                    "colorizeIcons": false,
                     "id": "ActiveWindow",
                     "scrollingMode": "hover",
                     "showIcon": true,
                     "width": 145
-                },
+                }
             ],
             "right": [
                 {
@@ -60,6 +61,7 @@
                 {
                     "blacklist": [
                     ],
+                    "colorizeIcons": false,
                     "id": "Tray"
                 },
                 {
@@ -132,8 +134,9 @@
         }
     },
     "dock": {
-        "backgroundOpacity": 1,
-        "displayMode": "always_visible",
+        "backgroundOpacity": 0.64,
+        "colorizeIcons": true,
+        "displayMode": "auto_hide",
         "floatingRatio": 1,
         "monitors": [
         ],
@@ -144,6 +147,8 @@
     "general": {
         "animationDisabled": false,
         "animationSpeed": 1,
+        "avatarImage": "~/.face",
+        "compactLockScreen": false,
         "dimDesktop": true,
         "forceBlackScreenCorners": false,
         "radiusRatio": 1,
@@ -156,7 +161,7 @@
         "wallpaperChange": ""
     },
     "location": {
-        "name": "Tokyo",
+        "name": "Toronto, ON",
         "showWeekNumberInCalendar": false,
         "use12hourFormat": false,
         "useFahrenheit": false
@@ -177,7 +182,7 @@
         "alwaysOnTop": false,
         "criticalUrgencyDuration": 15,
         "doNotDisturb": false,
-        "lastSeenTs": 0,
+        "lastSeenTs": 1760298236000,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
@@ -197,6 +202,7 @@
         "audioCodec": "opus",
         "audioSource": "default_output",
         "colorRange": "limited",
+        "directory": "~/Videos",
         "frameRate": 60,
         "quality": "very_high",
         "showCursor": true,
@@ -233,10 +239,24 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "defaultWallpaper": "/etc/skel/Pictures/Wallpapers/mountains.png",
+        "defaultWallpaper": "/usr/share/zirconium/noctalia-shell/Assets/Wallpaper/noctalia.png",
+        "directory": "~/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
         "fillMode": "crop",
+        "monitors": [
+            {
+                "directory": "~/Pictures/Wallpapers",
+                "name": "Virtual-1",
+                "wallpaper": "~/Pictures/Wallpapers/mountains.png"
+            }
+        ],
+        "randomEnabled": false,
+        "randomIntervalSec": 300,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 0.05,
+        "transitionType": "random"
     }
 }
