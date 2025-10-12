@@ -152,7 +152,6 @@ layout {
     //
     // Alternatively, you can override it with a window rule called
     // `draw-border-with-background`.
-    prefer-no-csd
  
     // You can change how the focus ring looks.
     focus-ring {
