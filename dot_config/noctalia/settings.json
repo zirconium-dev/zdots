@@ -245,13 +245,6 @@
         "enabled": true,
         "fillColor": "#000000",
         "fillMode": "crop",
-        "monitors": [
-            {
-                "directory": "~/Pictures/Wallpapers",
-                "name": "Virtual-1",
-                "wallpaper": "~/Pictures/Wallpapers/mountains.png"
-            }
-        ],
         "randomEnabled": false,
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
