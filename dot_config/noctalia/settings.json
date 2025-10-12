@@ -6,7 +6,7 @@
         ],
         "position": "center",
         "sortByMostUsed": true,
-        "terminalCommand": "footclient -e",
+        "terminalCommand": "ghostty -e",
         "useApp2Unit": false
     },
     "audio": {
