@@ -239,7 +239,7 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "defaultWallpaper": "/etc/skel/Pictures/Wallpapers/mountains.png",
+        "defaultWallpaper": "/usr/share/zirconium/noctalia-shell/Assets/Wallpaper/noctalia.png",
         "directory": "~/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
