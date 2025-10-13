@@ -362,9 +362,11 @@ binds {
  
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
+    Ctrl+Shift+Escape hotkey-overlay-title="Open a Resource Usage Analyzer: Mission Center" { spawn "flatpak" "run" " io.missioncenter.MissionCenter"; }
     // Fallback terminal without server
     Shift+Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
     Mod+D hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
+    Mod+E hotkey-overlay-title="Open File Manager" { spawn "nautilus"; }
     Mod+Space hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "toggle"; }
  
