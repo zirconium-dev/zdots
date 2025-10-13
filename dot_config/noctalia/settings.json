@@ -46,11 +46,20 @@
                     "labelMode": "index"
                 },
                 {
-                    "autoHide": false,
+                    "icon": "search",
+                    "id": "CustomButton",
+                    "leftClickExec": "qs -p \"/usr/share/zirconium/noctalia-shell\" ipc call launcher toggle",
+                    "middleClickExec": "",
+                    "rightClickExec": "",
+                    "textCommand": "",
+                    "textIntervalMs": 3000
+                },
+                {
+                    "autoHide": true,
                     "colorizeIcons": false,
                     "id": "ActiveWindow",
                     "scrollingMode": "hover",
-                    "showIcon": true,
+                    "showIcon": false,
                     "width": 145
                 }
             ],
