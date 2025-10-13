@@ -365,6 +365,7 @@ binds {
     // Fallback terminal without server
     Shift+Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
     Mod+D hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
+    Mod+Space hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "toggle"; }
  
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
