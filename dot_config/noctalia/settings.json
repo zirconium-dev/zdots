@@ -65,6 +65,15 @@
             ],
             "right": [
                 {
+                    "icon": "notebook",
+                    "id": "CustomButton",
+                    "leftClickExec": "niri msg action show-hotkey-overlay",
+                    "middleClickExec": "",
+                    "rightClickExec": "",
+                    "textCommand": "",
+                    "textIntervalMs": 3000
+                },
+                {
                     "id": "ScreenRecorder"
                 },
                 {
