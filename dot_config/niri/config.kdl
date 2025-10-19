@@ -1,9 +1,11 @@
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration%3A-Introduction.html
 
+
 // Add all config files for different categories here
 // for example:
 // include "my-new-file.kdl"
+// Includes are positional. They will override options set prior to them. Window rules from included files will be inserted at the position of the include line.
 include "input.kdl"
 include "monitors.kdl"
 include "layout.kdl"
