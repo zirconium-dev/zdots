@@ -69,7 +69,7 @@
                     "id": "CustomButton",
                     "leftClickExec": "niri msg action show-hotkey-overlay",
                     "middleClickExec": "",
-                    "rightClickExec": "",
+                    "rightClickExec": "xdg-open https://yalter.github.io/niri/index.html",
                     "textCommand": "",
                     "textIntervalMs": 3000
                 },
