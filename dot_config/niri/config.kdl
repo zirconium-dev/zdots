@@ -630,5 +630,5 @@ debug {
 }
  
 switch-events {
-    lid-close { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "toggle"; }
+    lid-close { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "lock"; }
 }
