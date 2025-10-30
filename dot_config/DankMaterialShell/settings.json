@@ -121,7 +121,7 @@
   "networkPreference": "auto",
   "iconTheme": "System Default",
   "launcherLogoMode": "apps",
-  "launcherLogoCustomPath": "/var/home/tulip/amogus.png",
+  "launcherLogoCustomPath": "",
   "launcherLogoColorOverride": "",
   "launcherLogoColorInvertOnMode": false,
   "launcherLogoBrightness": 0.5,
