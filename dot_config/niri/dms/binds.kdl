@@ -3,6 +3,10 @@ binds {
         spawn "dms" "ipc" "call" "spotlight" "toggle"; 
     }
 
+    Mod+D hotkey-overlay-title="Application Launcher" { 
+        spawn "dms" "ipc" "call" "spotlight" "toggle"; 
+    }
+
     Mod+V hotkey-overlay-title="Clipboard Manager" { 
         spawn "dms" "ipc" "call" "clipboard" "toggle"; 
     }
