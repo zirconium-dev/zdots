@@ -19,3 +19,7 @@ layer-rule {
     match namespace="quickshell"
     place-within-backdrop true
 }
+
+switch-events {
+    lid-close { spawn "dms" "ipc" "call" "lock" "lock"; }
+}
