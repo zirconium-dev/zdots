@@ -1,5 +1,6 @@
 binds {
     Ctrl+Alt+Delete hotkey-overlay-title="Open the Session Menu" { spawn "qs" "-c" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "sessionMenu" "toggle"; }
+    Mod+D hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Mod+Space hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "lock"; }
 }
