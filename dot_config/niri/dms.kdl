@@ -1,6 +1,3 @@
-// Required for clipboard history integration
-spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
-
 // Syncing with all the DMS stuff :)
 include "dms/binds.kdl"
 include "dms/colors.kdl"
