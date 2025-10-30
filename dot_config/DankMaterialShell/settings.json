@@ -200,7 +200,7 @@
   "screenPreferences": {},
   "showOnLastDisplay": {},
   "animationSpeed": 4,
-  "customAnimationDuration": 151,
+  "customAnimationDuration": 167,
   "acMonitorTimeout": 1200,
   "acLockTimeout": 900,
   "acSuspendTimeout": 3600,
