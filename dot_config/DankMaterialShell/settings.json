@@ -19,13 +19,13 @@
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
   "showFocusedWindow": true,
-  "showWeather": true,
+  "showWeather": false,
   "showMusic": true,
   "showClipboard": true,
-  "showCpuUsage": true,
-  "showMemUsage": true,
-  "showCpuTemp": true,
-  "showGpuTemp": true,
+  "showCpuUsage": false,
+  "showMemUsage": false,
+  "showCpuTemp": false,
+  "showGpuTemp": false,
   "selectedGpuIndex": 0,
   "enabledGpuPciIds": [],
   "showSystemTray": true,
@@ -104,13 +104,14 @@
   "dankBarCenterWidgets": [
     "music",
     "clock",
-    "weather"
+    {
+      "id": "weather",
+      "enabled": false
+    }
   ],
   "dankBarRightWidgets": [
     "systemTray",
     "clipboard",
-    "cpuUsage",
-    "memUsage",
     "notificationButton",
     "battery",
     "controlCenterButton"
@@ -174,7 +175,7 @@
   "popupGapsManual": 4,
   "dankBarPosition": 0,
   "lockScreenShowPowerActions": true,
-  "enableFprint": false,
+  "enableFprint": true,
   "maxFprintTries": 3,
   "hideBrightnessSlider": false,
   "widgetBackgroundColor": "sch",
