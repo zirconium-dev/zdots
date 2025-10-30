@@ -1,6 +1,10 @@
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration%3A-Introduction.html
 
+// Just switch this if you want to use noctalia instead, vice versa
+include "dms.kdl"
+// include "noctalia.kdl"
+
 input {
     keyboard {
         xkb {
@@ -364,10 +368,7 @@ binds {
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty" "+new-window"; }
     Shift+Mod+T hotkey-overlay-title="Open a Terminal: ghostty (without service)" { spawn "ghostty"; }
     Ctrl+Shift+Escape hotkey-overlay-title="Open a Resource Usage Analyzer: Mission Center" { spawn "flatpak" "run" "io.missioncenter.MissionCenter"; }
-    Mod+D hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Mod+E hotkey-overlay-title="Open File Manager" { spawn "nautilus"; }
-    Mod+Space hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "lock"; }
  
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
@@ -614,7 +615,6 @@ binds {
  
     // The quit action will show a confirmation dialog to avoid accidental exits.
     Mod+Shift+E { quit; }
-    Ctrl+Alt+Delete hotkey-overlay-title="Open the Session Menu" { spawn "qs" "-c" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "sessionMenu" "toggle"; }
  
     // Powers off the monitors. To turn them back on, do any input like
     // moving the mouse or pressing any other key.
@@ -628,8 +628,4 @@ layer-rule {
  
 debug {
     honor-xdg-activation-with-invalid-serial
-}
- 
-switch-events {
-    lid-close { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "lockScreen" "lock"; }
 }
