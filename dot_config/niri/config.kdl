@@ -313,6 +313,7 @@ binds {
  
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty" "+new-window"; }
+    Ctrl+Alt+Return hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty" "+new-window"; }
     Shift+Mod+T hotkey-overlay-title="Open a Terminal: ghostty (without service)" { spawn "ghostty"; }
     Ctrl+Shift+Escape hotkey-overlay-title="Open a Resource Usage Analyzer: Mission Center" { spawn "flatpak" "run" "io.missioncenter.MissionCenter"; }
     Mod+E hotkey-overlay-title="Open File Manager" { spawn "nautilus"; }
