@@ -39,6 +39,7 @@ input {
         accel-profile "adaptive"
         // scroll-method "two-finger"
         // disabled-on-external-mouse
+        click-method "clickfinger"
     }
  
     mouse {
