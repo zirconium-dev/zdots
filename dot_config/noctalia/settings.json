@@ -6,7 +6,7 @@
         ],
         "position": "center",
         "sortByMostUsed": true,
-        "terminalCommand": "ghostty",
+        "terminalCommand": "footclient",
         "useApp2Unit": false
     },
     "audio": {
@@ -239,7 +239,7 @@
         "enableUserTemplates": false,
         "foot": true,
         "fuzzel": true,
-        "ghostty": true,
+        "ghostty": false,
         "gtk": false,
         "kcolorscheme": false,
         "kitty": false,
