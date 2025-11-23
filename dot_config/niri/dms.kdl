@@ -1,0 +1,25 @@
+// Syncing with all the DMS stuff :)
+include "dms/binds.kdl"
+include "dms/colors.kdl"
+include "dms/layout.kdl"
+include "dms/wpblur.kdl"
+
+// If using niri newer than 271534e115e5915231c99df287bbfe396185924d (~aug 17 2025)
+// you can add this to disable built in config load errors since dank shell provides this
+config-notification {
+    disable-failed
+}
+
+// You probably want this too for DMS
+debug {
+   honor-xdg-activation-with-invalid-serial
+}
+
+layer-rule {
+    match namespace="quickshell"
+    place-within-backdrop true
+}
+
+switch-events {
+    lid-close { spawn "dms" "ipc" "call" "lock" "lock"; }
+}
