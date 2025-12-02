@@ -1,0 +1,33 @@
+/*
+ o%%%%%o                      o%%%%%%o
+%%%%%%%%%%%o              o%%%%%%%%%%%%
+ O%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%O
+   O%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%O
+      O%%%%%%%%%%%%%%%%%%%%%%%%%%==
+          O%%%%%%%%%%%%%%%%%%====
+                    ++++=======
+                  +++++++====
+                ++****+++==
+              +++*****+++
+            ==++*****++
+           ==++++**++
+         =====+++++
+       =====+%%%%%%%%%%%%o
+     ==%%%%%%%%%%%%%%%%%%%%%%%%o
+   =%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%o
+ o%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%o
+%%%%%%%%%%%%%%O         O%%%%%%%%%%%%%%
+O%%%%%%%%O                   O%%%%%%%O
+  O%%%O                         O%%%O
+*/
+include "includes/input.kdl"
+include "includes/layout.kdl"
+include "includes/shadow.kdl"
+include "includes/startup.kdl"
+include "includes/hotkey-overlay.kdl"
+include "includes/prefer-no-csd.kdl"
+include "includes/screenshot-path.kdl"
+include "includes/animations.kdl"
+include "includes/window-rules.kdl"
+include "includes/binds.kdl"
+include "/etc/niri/local.kdl"
