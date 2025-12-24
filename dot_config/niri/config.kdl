@@ -2,8 +2,8 @@
 // https://yalter.github.io/niri/Configuration%3A-Introduction.html
 
 // Just switch this if you want to use noctalia instead, vice versa
-include "dms.kdl"
-// include "noctalia.kdl"
+include optional=true "dms.kdl"
+// include optional=true "noctalia.kdl"
 
 input {
     keyboard {

@@ -1,10 +1,10 @@
 // Syncing with all the DMS stuff :)
-include "dms/binds.kdl"
-include "dms/colors.kdl"
-include "dms/layout.kdl"
-include "dms/wpblur.kdl"
+include optional=true "dms/alttab.kdl"
+include optional=true "dms/binds.kdl"
+include optional=true "dms/colors.kdl"
+include optional=true "dms/layout.kdl"
+include optional=true "dms/wpblur.kdl"
 
-// If using niri newer than 271534e115e5915231c99df287bbfe396185924d (~aug 17 2025)
 // you can add this to disable built in config load errors since dank shell provides this
 config-notification {
     disable-failed
