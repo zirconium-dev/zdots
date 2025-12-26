@@ -4,6 +4,7 @@ include optional=true "dms/binds.kdl"
 include optional=true "dms/colors.kdl"
 include optional=true "dms/layout.kdl"
 include optional=true "dms/wpblur.kdl"
+include optional=true "dms/outputs.kdl"
 
 // you can add this to disable built in config load errors since dank shell provides this
 config-notification {
