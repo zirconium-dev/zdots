@@ -139,10 +139,10 @@ binds {
  
     Mod+W { toggle-column-tabbed-display; }
  
-    Print { screenshot; }
-    Mod+Shift+S { screenshot; }
-    Ctrl+Print { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    Print { spawn "dms" "ipc" "call" "niri" "screenshot"; }
+    Mod+Shift+S { spawn "dms" "ipc" "call" "niri" "screenshot"; }
+    Ctrl+Print { spawn "dms" "ipc" "call" "niri" "screenshotScreen"; }
+    Alt+Print { spawn "dms" "ipc" "call" "niri" "screenshotWindow"; }
 
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
