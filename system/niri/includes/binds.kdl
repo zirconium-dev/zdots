@@ -140,9 +140,9 @@ binds {
     Mod+W { toggle-column-tabbed-display; }
  
     Print { spawn "dms" "ipc" "call" "niri" "screenshot"; }
-    Mod+Shift+S { spawn "dms" "ipc" "call" "niri" "screenshot"; }
     Ctrl+Print { spawn "dms" "ipc" "call" "niri" "screenshotScreen"; }
     Alt+Print { spawn "dms" "ipc" "call" "niri" "screenshotWindow"; }
+    Mod+Shift+S hotkey-overlay-title="Take a Screenshot" { spawn "dms" "ipc" "call" "niri" "screenshot"; }
 
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
