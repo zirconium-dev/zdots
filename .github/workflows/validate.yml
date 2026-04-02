@@ -1,0 +1,20 @@
+---
+name: Validate Niri configs
+on:
+  push:
+    paths:
+    - 'system/niri/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: validate niri config
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/zirconium-dev/zirconium
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+      - name: Validating config
+        run: |
+          niri validate -c system/niri/zirconium.kdl
