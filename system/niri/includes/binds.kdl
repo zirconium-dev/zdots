@@ -144,6 +144,9 @@ binds {
     Alt+Print { spawn "dms" "ipc" "call" "niri" "screenshotWindow"; }
     Mod+Shift+S hotkey-overlay-title="Take a Screenshot" { spawn "dms" "ipc" "call" "niri" "screenshot"; }
 
+    Mod+Print hotkey-overlay-title="Read contents of screen" { spawn "zocr" "screenshot"; }
+    Mod+Alt+Shift+S hotkey-overlay-title="Read contents of screen" { spawn "zocr" "screenshot"; }
+
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
     Mod+Shift+E { quit; }
