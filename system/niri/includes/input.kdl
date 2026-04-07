@@ -6,6 +6,7 @@ input {
 
     touchpad {
         tap
+        natural-scroll
         accel-profile "adaptive"
         click-method "clickfinger"
     }
