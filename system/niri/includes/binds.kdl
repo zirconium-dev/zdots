@@ -147,6 +147,14 @@ binds {
     Mod+Print hotkey-overlay-title="Read contents of screen" { spawn "zocr" "screenshot"; }
     Mod+Alt+Shift+S hotkey-overlay-title="Read contents of screen" { spawn "zocr" "screenshot"; }
 
+    Ctrl+Shift+Escape hotkey-overlay-title="Task Manager" { 
+        spawn "dms" "ipc" "call" "processlist" "toggle"; 
+    }
+
+    Ctrl+Shift+Alt+Mod+L { 
+        spawn "xdg-open" "https://googleballs.com/";
+    }
+
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
     Mod+Shift+E { quit; }
