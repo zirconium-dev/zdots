@@ -151,7 +151,7 @@ binds {
         spawn "dms" "ipc" "call" "processlist" "toggle"; 
     }
 
-    Ctrl+Shift+Alt+Mod+L { 
+    Ctrl+Shift+Alt+Mod+L hotkey-overlay-title=null { 
         spawn "xdg-open" "https://googleballs.com/";
     }
 
